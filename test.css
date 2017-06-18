@@ -1,0 +1,87 @@
+.container {
+    margin: 0 auto;
+    width: 100%; 
+}
+
+.header {
+    background: url("http://img.xooimage.com/files98/e/b/4/old_nashville_riverfront-41b6b54.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    top: 0;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
+body {
+    margin:0;
+}
+.header .container {
+    position: absolute;
+    bottom: 0;
+}
+.header .container h1, h4 {
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 1px;
+}
+.second {
+    position: relative;
+    height: 200px;
+}
+.second  .container {
+    border: .5px solid black;
+    height: 200px;
+    position: absolute;
+    display: inline-block;
+}
+
+.second p {
+    text-align: justify;
+    right: auto;
+    left: auto;
+    padding: 15px 300px 15px 300px;
+    font-size: 18px;
+    font-family: Baskerville;
+    font-weight: 600;
+    position: absolute;
+    top: 25px;
+}
+
+#quill {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 35px;
+    left: 170px;
+}
+
+.third {
+    background: url("https://i.ytimg.com/vi/Q4O_9MjOmC8/maxresdefault.jpg") no-repeat center center;
+    height: 300px;
+    position: relative;
+}
+
+.third .container ul {
+    position: absolute;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    top: 50px;
+}
+
+li {
+    display: inline-block;
+    background-color: black;
+    margin: 40px;
+    padding: 8px 20px;
+    border: .5px solid white;
+    border-radius: 5px;
+}
+
+.third .container a {
+    color: white;
+    text-decoration: none;
+}
+.third .container a:hover {
+    font-size: 25px;
+}
